@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 2rem;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.facilitation {
+    text-align: center;
+}
+
+.facilities {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.facility {
+    border: 1px solid #ddd;
+    padding: 2rem;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact label {
+    margin-right: auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+}
+
+@media (max-width: 600px) {
+    .facilities {
+        flex-direction: column;
+        align-items: center;
+    }
+}
