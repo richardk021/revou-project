@@ -27,6 +27,15 @@ nav ul {
 nav a {
     text-decoration: none;
     color: #333;
+    padding: 0.5rem 1rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: #fff; 
 }
 
 main {
@@ -35,10 +44,12 @@ main {
 
 .welcome {
     text-align: center;
+    margin-bottom: 2rem; /* Added margin-bottom between sections */
 }
 
 .facilitation {
     text-align: center;
+    margin-bottom: 2rem; /* Added margin-bottom between sections */
 }
 
 .facilities {
@@ -61,6 +72,7 @@ main {
 
 .contact {
     text-align: center;
+    margin-bottom: 2rem; /* Added margin-bottom between sections */
 }
 
 .contact form {
